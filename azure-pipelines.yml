@@ -6,13 +6,13 @@
 trigger:
   - '*'
   
-  pool:
-    vmImage: 'ubuntu-20.04'
-  
-  variables:
-    buildConfiguration: 'Release'
-    wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-    dotnetSdkVersion: '6.x'
+pool:
+  vmImage: 'ubuntu-20.04'
+
+variables:
+  buildConfiguration: 'Release'
+  wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
+  dotnetSdkVersion: '6.x'
   
 steps:
   - task: UseDotNet@2
