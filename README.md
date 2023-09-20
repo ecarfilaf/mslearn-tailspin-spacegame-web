@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/DA-AFP/AFPNET/_apis/build/status%2FBeneficios.Sagcom?branchName=release%2Fdesarrollo)](https://dev.azure.com/DA-AFP/AFPNET/_build/latest?definitionId=81&branchName=release%2Fdesarrollo)
 
 # Contributing
 
